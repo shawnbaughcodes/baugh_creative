@@ -1,0 +1,13 @@
+/* RESET */
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/*END RESET*/
+/* CONTAINER EDITS */
+.container {
+    background: #050401
+    width: 100%
+}
