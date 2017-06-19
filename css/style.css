@@ -6,8 +6,40 @@
 	border: 0;
 	}
 /*END RESET*/
-/* CONTAINER EDITS */
-.container {
-    background: #050401
-    width: 100%
+/*BODY EDITS*/
+body{
+    overflow: hidden;
 }
+body .container {
+    max-width: none;
+}
+/*BODY EDITS END*/
+/* CONTAINER EDITS */
+div.container {
+    background: #050401;
+    width: 100%;
+    height: 100vh;
+}
+/* CONTAINER END */
+/* NAV 1 EDITS */
+div.nav1 {
+    text-align: center;
+    padding-top: 3%;
+}
+/* p nav 1 edits */
+p#nav1 {
+    display: inline-block;
+    color: #F4FFF8;
+}
+a {
+    color: #F4FFF8;
+    cursor: pointer;
+    font-size:
+}
+/* END NAV EDITS*/
+/* LOGO EDITS*/
+div.logo {
+    text-align: center;
+    padding-top: 15%; 
+}
+/* END LOGO EDITS*/
