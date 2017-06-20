@@ -15,7 +15,12 @@ body .container {
 }
 /*BODY EDITS END*/
 /* CONTAINER EDITS */
-div.container {
+div.container1 {
+    /*background: blue;*/
+    width: 100%;
+    /*height: 100vh;*/
+}
+div.logo_container {
     background: #050401;
     width: 100%;
     height: 100vh;
@@ -24,15 +29,15 @@ div.container {
 /* NAV 1 EDITS */
 div.nav1 {
     text-align: center;
-    padding-top: 3%;
+    /*padding-top: 2%;*/
 }
 /* p nav 1 edits */
-p#nav1 {
+h5#nav1 {
     display: inline-block;
-    color: #F4FFF8;
+    color: #2D3142;
 }
 a {
-    color: #F4FFF8;
+    color: #2D3142;
     cursor: pointer;
     font-size:
 }
@@ -40,6 +45,6 @@ a {
 /* LOGO EDITS*/
 div.logo {
     text-align: center;
-    padding-top: 15%; 
+    padding-top: 15%;
 }
 /* END LOGO EDITS*/
