@@ -8,6 +8,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+        <script src="https://use.fontawesome.com/8e15a18710.js"></script>
         <!-- CSS LINK IN -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- PERSONAL SCRIPT PAGE LINK IN -->
@@ -16,8 +17,8 @@
         <title>Baugh Creative</title>
     </head>
     <body>
-        <!-- CONTAINER -->
-        <div class="container1 col s12 m6">
+        <!-- CONTAINER 1 -->
+        <div class="container1 col s12 m6" hidden>
             <!-- HOLDS EVERYTHING -->
             <div class="nav1 col s12 m6">
                 <h5 id="nav1"><a href="#" id="about">About</a> |</h5>
@@ -26,15 +27,45 @@
             </div>
             <div class="logo_container">
                 <div class="logo col s12 m6">
-                    <div>
                         <img src="./img/baugh_creative_logo.png" alt="Logo">
-                    </div>
                 </div>
             </div>
-            <div class="about_container">
-                <h1>ABOUT</h1>
+            <!-- END CONTAINER 1 -->
+        </div>
+        <!-- CONTAINER 2 -->
+        <div class="container2 col s12 m6" hidden>
+
+            <div class="about_info">
+                    <i id="about_info" class="fa fa-times" aria-hidden="true"></i>
+                    <br>
+                <p><em>Technology is my passion. Creativity is my drive. Efficiency is my aim.</em></p>
+                <hr>
+                <p>I am a developer driven by the art within the machine. Completing my Associates of Science through Ashworth College and the Coding Dojo intensive onsite bootcamp has allowed me to gain new expertise in Python, JavaScript, Ruby, and C#.
+                    <img id="logo2" src="./img/SB2.png" alt="SB2 Logo">
+                </p>
+
             </div>
-            <!-- END CONTAINER -->
+            <!-- HEADING -->
+            <div class="about_heading">
+                <h1>About</h1>
+                <h5>Just a Creator</h5>
+            </div>
+            <!-- END CONTAINER 2 -->
+        </div>
+        <div class="container3 col s12 m6">
+            <div class="projects">
+                <i id="projects" class="fa fa-times" aria-hidden="true"></i>
+                <br>
+                <div class="project">
+                    <h3>Project Name</h3>
+                    <p>Languages</p>
+                </div>
+            </div>
+            <!-- HEADING -->
+            <div class="project_heading">
+                <h1>Project</h1>
+                <h5>Creations</h5>
+            </div>
         </div>
     </body>
 </html>
