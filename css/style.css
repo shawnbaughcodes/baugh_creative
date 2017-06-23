@@ -48,6 +48,23 @@ a {
     color: #FBFAF8;
     cursor: pointer;
 }
+#about:hover {
+	animation: pulse 2s infinite;
+}
+#projects:hover {
+	animation: pulse 2s infinite;
+}
+#contact:hover {
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+	0% {
+		color: white;
+	}
+	100% {
+		color: #36A8C0;
+	}
+}
 /* END NAV EDITS*/
 
 /* LOGO EDITS*/
@@ -61,6 +78,8 @@ div.logo {
 .container2 {
 	width: 100%;
     height: 100vh;
+	background: url(../img/office_bg.png);
+	background-size: cover;
 }
 /*about info*/
 div.about_info {
@@ -116,6 +135,8 @@ i#about_info {
 .container3 {
 	width: 100%;
     height: 100vh;
+	background: url(../img/office_bg.png);
+	background-size: cover;
 }
 div.projects {
 	/*padding-left: 70%;*/
@@ -164,7 +185,9 @@ div.project_heading {
 /*CONTAINER 3 END*/
 /*CONTAINER 4*/
 div.container4 {
-	margin-top: 10%;
+	margin-top: 8.5%;
+	background: url(../img/office_bg.png);
+	background-size: cover;
 }
 div.github {
 	display: inline-block;
@@ -182,7 +205,7 @@ div.github {
 div.email {
 	display: inline-block;
 	text-align: center;
-	margin-left: 15%;
+	margin-left: 12%;
 	margin-top: 10%;
 }
 .email a {

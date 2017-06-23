@@ -7,19 +7,20 @@ $(document).ready(function() {
      });
      $("i#about_info").click(function() {
          exit_about();
-     })
+     });
      $("#projects").click(function(){
          projects_slide();
-     })
+     });
      $("i#projects").click(function(){
          exit_projects();
-     })
+     });
      $('#contact').click(function() {
          contact_slide();
-     })
+     });
      $('i#contact').click(function() {
          exit_contact();
-     })
+     });
+     $("#about").mouseenter()
     //  ****************FUNCTIONS****************
     //  about slide
     function about_slide() {
