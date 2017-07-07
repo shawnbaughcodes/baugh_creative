@@ -70,7 +70,9 @@ a {
 /* LOGO EDITS*/
 div.logo {
     text-align: center;
-    padding-top: 15%;
+    /*padding-top: 15%;*/
+	margin-right: 25%;
+
 }
 /* END LOGO EDITS*/
 
@@ -85,7 +87,7 @@ div.logo {
 div.about_info {
 	display: inline-block;
 	width: 30%;
-	height: 100vh;
+	height: 90vh;
 }
 #photo {
 	margin-left: 25%;
@@ -107,13 +109,13 @@ div.about_info {
 	padding-right: 5%;
 	font-size: 20pt;
 }
+.about_info em{
+	text-align: center;
+}
 /*about heading*/
 div.about_heading {
 	display: inline-block;
 	text-align: center;
-	/*background: pink;*/
-	padding-left: 20%;
-	padding-top: 20%;
 	vertical-align: top;
 }
 .about_heading h1 {
@@ -167,8 +169,8 @@ div.project {
 div.project_heading {
 	display: inline-block;
 	text-align: center;
-	padding-left: 25%;
-	padding-top: 20%;
+	margin-left: 25%;
+	margin-top: 20%;
 	vertical-align: top;
 }
 .project_heading h1 {

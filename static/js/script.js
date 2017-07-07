@@ -5,17 +5,17 @@ $(document).ready(function() {
      $("#about").click(function(){
          about_slide();
      });
-     $("i#about_info").click(function() {
-         exit_about();
-     });
      $("#projects").click(function(){
          projects_slide();
+     });
+     $('#contact').click(function() {
+         contact_slide();
      });
      $("i#projects").click(function(){
          exit_projects();
      });
-     $('#contact').click(function() {
-         contact_slide();
+     $("i#about_info").click(function() {
+         exit_about();
      });
      $('i#contact').click(function() {
          exit_contact();
@@ -28,7 +28,6 @@ $(document).ready(function() {
         window.setTimeout(about_fade,1500)
         function about_fade() {
             $(".container2").fadeToggle(2000, function() {
-                     //Stuff to do *after* the animation takes place
             })
         }
     }
