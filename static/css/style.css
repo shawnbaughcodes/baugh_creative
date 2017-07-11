@@ -17,7 +17,8 @@ body{
     overflow: hidden;
 }
 body .container {
-    max-width: none;
+    max-width: 100vw;
+	max-height: 100vh;
 }
 /*BODY EDITS END*/
 /* CONTAINER EDITS */
@@ -88,6 +89,7 @@ div.about_info {
 	display: inline-block;
 	width: 30%;
 	height: 90vh;
+	margin-top: 5vh;
 }
 #photo {
 	margin-left: 25%;
@@ -117,6 +119,8 @@ div.about_heading {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
+	margin-top: 40vh;
+	margin-left: 15vw;
 }
 .about_heading h1 {
 	font-size: 100pt;
@@ -143,10 +147,11 @@ i#about_info {
 div.projects {
 	/*padding-left: 70%;*/
 	text-align: right;
-	padding-right: 5%;
+	margin-right: 1vw;
 	display: inline-block;
+	position: sticky;
 	float: right;
-	width: 35%;
+	width: 35vw;
 	height: 100vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -159,42 +164,46 @@ i#projects {
 }
 div.project {
 	text-align: left;
-	width: 100%;
+	width: 100vw;
 	display: inline-block;
 }
 .project p {
 	font-size: 15pt;
 	font-weight: bold;
 }
+.project a {
+	color: inherit;
+	
+}
 div.project_heading {
 	display: inline-block;
 	text-align: center;
-	margin-left: 25%;
-	margin-top: 20%;
-	vertical-align: top;
+	margin-left: 10vw;
+	margin-top: 40vh;
 }
 .project_heading h1 {
-	font-size: 100pt;
+	font-size: 90pt;
 }
 .project_heading h5 {
 	font-size: 30pt;
 }
 #project_img {
-	width: 100%;
+	/*width: 100vw;*/
 	height: 300px;
-	background: black;
 }
 /*CONTAINER 3 END*/
 /*CONTAINER 4*/
 div.container4 {
-	margin-top: 8.5%;
+	/*margin-top: 8.5%;*/
 	background: url(../img/office_bg.png);
 	background-size: cover;
+	height: 100vh;
+	width: 100%;
 }
 div.github {
 	display: inline-block;
 	text-align: center;
-	margin-left: 10%;
+	margin-left: 3%;
 	margin-top: 10%;
 }
 .github a {
@@ -207,7 +216,7 @@ div.github {
 div.email {
 	display: inline-block;
 	text-align: center;
-	margin-left: 12%;
+	margin-left: 7%;
 	margin-top: 10%;
 }
 .email a {
@@ -220,7 +229,7 @@ div.email {
 div.linkedin {
 	display: inline-block;
 	text-align: center;
-	margin-left: 15%;
+	margin-left: 7%;
 }
 .linkedin a {
 	color: black;
@@ -243,5 +252,13 @@ i#contact:hover {
 }
 i#contact {
 	font-size: 30pt;
+	text-align: center;
+	display: block;
+}
+.contact_container {
+	padding-top: 20vh;
+}
+.contact_links {
+	text-align: center;
 }
 /*CONTAINER 4 END*/
