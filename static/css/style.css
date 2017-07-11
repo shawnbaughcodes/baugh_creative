@@ -145,13 +145,12 @@ i#about_info {
 	background-size: cover;
 }
 div.projects {
-	/*padding-left: 70%;*/
 	text-align: right;
 	margin-right: 1vw;
 	display: inline-block;
 	position: sticky;
 	float: right;
-	width: 35vw;
+	width: 100vw;
 	height: 100vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -164,8 +163,11 @@ i#projects {
 }
 div.project {
 	text-align: left;
-	width: 100vw;
 	display: inline-block;
+	/*height: 100px;*/
+}
+.project h3 {
+	font-size: 30pt;
 }
 .project p {
 	font-size: 15pt;
@@ -173,12 +175,12 @@ div.project {
 }
 .project a {
 	color: inherit;
-	
+
 }
 div.project_heading {
 	display: inline-block;
 	text-align: center;
-	margin-left: 10vw;
+	/*margin-left: 10vw;*/
 	margin-top: 40vh;
 }
 .project_heading h1 {
@@ -188,8 +190,8 @@ div.project_heading {
 	font-size: 30pt;
 }
 #project_img {
-	/*width: 100vw;*/
-	height: 300px;
+	/*width: 100vw;
+	height: 300px;*/
 }
 /*CONTAINER 3 END*/
 /*CONTAINER 4*/
