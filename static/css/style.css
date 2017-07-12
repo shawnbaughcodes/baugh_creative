@@ -149,9 +149,9 @@ div.projects {
 	text-align: right;
 	margin-right: 1vw;
 	display: inline-block;
-	position: sticky;
+	/*position: sticky;*/
 	float: right;
-	width: 100vw;
+	width: 40vw;
 	height: 100vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -160,20 +160,19 @@ i#projects {
 	cursor: pointer;
 	font-size: 30pt;
 	text-align: right;
-	/*margin-right: 5%;*/
+	position: fixed;
+	margin-left: -2%;
 }
 div.project {
 	text-align: left;
-<<<<<<< HEAD
 	display: inline-block;
 	/*height: 100px;*/
+	width: 65vw;
 }
 .project h3 {
 	font-size: 30pt;
-=======
 	width: 63vw;
-	/*display: inline-block;*/
->>>>>>> updates
+	display: inline-block;
 }
 .project p {
 	font-size: 15pt;
@@ -181,10 +180,6 @@ div.project {
 }
 .project a {
 	color: inherit;
-<<<<<<< HEAD
-
-=======
->>>>>>> updates
 }
 div.project_heading {
 	display: inline-block;
