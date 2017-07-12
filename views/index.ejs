@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100i|Righteous" rel="stylesheet">
         <!-- MATERIALIZE CSSLINK IN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <meta charset="utf-8">
         <!-- MATERIALIZE JQUERY LINK IN -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -37,27 +38,35 @@
             <!-- END CONTAINER 1 -->
         </div>
         <!-- CONTAINER 2 -->
-        <div class="container2 col s12 m8 l2" hidden>
-            <!-- ^^^^^HIDDEN^^^^^ -->
-            <div class="about_info row valign-wrapper">
-                    <i id="about_info" class="fa fa-times" aria-hidden="true"></i>
-                    <br>
-                    <img id="photo" src="./img/shawn_baugh_2.jpg" alt=" Shawn Baugh II">
-                <div class="s12 m6 l3">
-                    <p class="flow-text"><em>"Technology is my passion. Creativity is my drive. Efficiency is my aim."</em></p>
-                    <br>
-                    <p class="flow-text">I am a developer driven by the art within the machine. Completing my Associates of Science through Ashworth College and the Coding Dojo intensive onsite bootcamp has allowed me to gain new expertise in Python, JavaScript, Ruby.
-                        <img id="logo2" src="./img/SB2.png" alt="SB2 Logo">
-                    </p>
-                </div>
+        <div class="row">
 
+
+            <div class="container2 col s12" hidden>
+                <!-- ^^^^^HIDDEN^^^^^ -->
+                <div class="about_info row valign-wrapper col">
+                        <i id="about_info" class="fa fa-times" aria-hidden="true"></i>
+                        <br>
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="/img/shawn_baugh_2.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">Shawn Baugh II<i class="material-icons right">more_vert</i></span>
+                              <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">About Me<i class="material-icons right">close</i></span>
+                              <p>My name is Shawn and I am an experienced Web Application Developer with a demonstrated history of working with many technologies. Skilled in Python, JavaScript and Web Application Programming. A recent graduate from Coding Dojo Dallas with an interest in web and mobile app development. I enjoy creating solutions to make a client’s life easier. I am interested in learning more about a position with a company as a web or software developer.</p>
+                            </div>
+                          </div>
+                </div>
+                <!-- HEADING -->
+                <div class="about_heading row valign-wrapper col s6">
+                    <h1 class="flow-text">About</h1>
+                    <h5 class="flow-text">Just a Creator</h5>
+                </div>
+                <!-- END CONTAINER 2 -->
             </div>
-            <!-- HEADING -->
-            <div class="about_heading row valign-wrapper">
-                <h1 class="flow-text">About</h1>
-                <h5 class="flow-text">Just a Creator</h5>
-            </div>
-            <!-- END CONTAINER 2 -->
         </div>
         <!-- CONTAINER 3 -->
         <div class="container3" hidden>

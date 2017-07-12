@@ -88,9 +88,8 @@ div.logo {
 /*about info*/
 div.about_info {
 	display: inline-block;
-	width: 30%;
+	width: 40vw;
 	height: 90vh;
-	margin-top: 5vh;
 }
 #photo {
 	margin-left: 25%;
@@ -143,7 +142,7 @@ i#about_info {
 	width: 100%;
     height: 100vh;
 	background: url(../img/office_bg.png);
-	background-size: cover;
+	/*background-size: cover;*/	
 }
 div.projects {
 	text-align: right;
