@@ -184,7 +184,7 @@ div.project {
 div.project_heading {
 	display: inline-block;
 	text-align: center;
-	/*margin-left: 10vw;*/
+	margin-left: 10vw;
 	margin-top: 40vh;
 }
 .project_heading h1 {
