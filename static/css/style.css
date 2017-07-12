@@ -44,6 +44,7 @@ div.nav1 {
 h5#nav1 {
     display: inline-block;
     color: #FBFAF8;
+	font-size: 25pt;
 }
 a {
     color: #FBFAF8;
@@ -163,11 +164,16 @@ i#projects {
 }
 div.project {
 	text-align: left;
+<<<<<<< HEAD
 	display: inline-block;
 	/*height: 100px;*/
 }
 .project h3 {
 	font-size: 30pt;
+=======
+	width: 63vw;
+	/*display: inline-block;*/
+>>>>>>> updates
 }
 .project p {
 	font-size: 15pt;
@@ -175,7 +181,10 @@ div.project {
 }
 .project a {
 	color: inherit;
+<<<<<<< HEAD
 
+=======
+>>>>>>> updates
 }
 div.project_heading {
 	display: inline-block;
