@@ -142,7 +142,7 @@ i#about_info {
 	width: 100%;
     height: 100vh;
 	background: url(../img/office_bg.png);
-	/*background-size: cover;*/	
+	background-size: cover;
 }
 div.projects {
 	text-align: right;
@@ -208,7 +208,6 @@ div.container4 {
 div.github {
 	display: inline-block;
 	text-align: center;
-	margin-left: 3%;
 	margin-top: 10%;
 }
 .github a {
